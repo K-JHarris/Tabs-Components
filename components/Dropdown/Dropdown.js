@@ -25,4 +25,12 @@ class Dropdown {
 
 
 // Nothing to do here, just study what the code is doing and move on to the Dropdown class
+
+//gets all elements with the class dropdown and then loops through each element and creates a new object passing the element as a parameter.
 let dropdowns = document.querySelectorAll('.dropdown').forEach( dropdown => new Dropdown(dropdown));
+
+// console.log(dropdowns);
+// let dropdowns = document.querySelectorAll('.dropdown')
+// dropdowns.forEach(dropdown => new Dropdown(dropdown));
+
+// console.log(dropdowns);
